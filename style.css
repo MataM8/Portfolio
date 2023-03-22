@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #232737;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.groupetitre {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  background-color: grey;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: calc(0.5rem + 3vw);
+}
+
+.logo1 {
+  height: 160px;
+  width: 160px;
+  background-color: grey;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: calc(0.5rem + 3vw);
+  /* position: relative; */
+
+  top: 90px;
+  left: 1200px;
+  font-size: 45px;
+}
+
+.titre {
+  color: white;
+  margin-left: 10px;
+  font-size: calc(0.3rem + 2vw);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.lientitre {
+  color: white;
+  text-decoration: none;
+}
+
+.image_mmi {
+  width: 105px;
+  height: 105px;
+  border: thick double rgba(0, 0, 0, 0.664);
+  border-radius: 8%;
+  font-size: calc(0.5rem + 3vw);
+
+  position: absolute;
+  top: 120px;
+  right: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 380px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: calc(0.3rem + 3vw);
+  color: white;
+}
+
+h2 {
+  padding-top: 15px;
+  margin: 0;
+  margin-left: 155px;
+  font-size: 65px;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  font-size: calc(0.25rem + 3vw);
+  color: beige;
+}
+
+.presentation {
+  margin-left: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 35px;
+  font-size: calc(0.2rem + 3vw);
+  color: rgba(255, 255, 255, 0.712);
+}
+.competences {
+  margin: 0;
+  padding-top: 15px;
+  margin-left: 155px;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  font-size: calc(0.2rem + 3vw);
+}
+.pres {
+  height: 100vh;
+  background-color: #f5f5f5;
+  position: relative;
+  background: url(image_fond.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pres2 {
+  height: 90vh;
+  background-color: #f5f5f5;
+  background: url(image_fond.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.pres3 {
+  height: 90vh;
+  background-color: #f5f5f5;
+  background: url(image_fond.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.projet {
+  height: 100vh;
+  background-color: #f5f5f5;
+  background: url(image_fond.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pres4 {
+  height: 100vh;
+  background-color: #f5f5f5;
+  background: url(image_fond.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h3 {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 45px;
+  border: 5px solid #000000;
+  font-size: calc(0.2rem + 3vw);
+}
+
+form {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 15%;
+}
+
+legend {
+  color: beige;
+}
+input[type="text"] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+  border-radius: 4px;
+}
+
+.contactez {
+  text-align: center;
+}
+
+.formulaire {
+  color: beige;
+  align-items: center;
+}
+
+.comment {
+  border: 2px solid black;
+}
+
+.skillbar {
+  color: beige;
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.skillbar img {
+  height: 175px;
+}
+
+.sae img {
+  height: 65%;
+  width: 65%;
+}
+
+.sae {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.sae a {
+  color: beige;
+  text-decoration: none;
+  text-align: center;
+  font-size: 120%;
+}
